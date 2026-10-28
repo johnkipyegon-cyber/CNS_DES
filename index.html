@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RideFlow | Ride Hailing</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header><a class="brand" href="#"><span>R</span> RideFlow</a><nav><a href="#book">Book a ride</a><a href="#how">How it works</a></nav><button id="account">My account</button></header>
+<main class="layout">
+<section class="intro"><p class="eyebrow">YOUR CITY. YOUR RIDE.</p><h1>Where would<br>you like to go?</h1><p class="muted">Book a comfortable ride in a few simple steps.</p><div class="checks">✓ Upfront estimates　 ✓ Easy booking</div><div class="city-art"><div class="sun"></div><div class="building one"></div><div class="building two"></div><div class="building three"></div><div class="road"></div><div class="car">●　●</div></div></section>
+<section class="card" id="book"><p class="eyebrow">RIDE BOOKING</p><h2>Plan your trip</h2><form id="rideForm">
+<label for="pickup">Pickup location</label><input id="pickup" placeholder="e.g. Westlands, Nairobi" required>
+<label for="destination">Destination</label><input id="destination" placeholder="e.g. JKIA Airport" required>
+<div class="row"><div><label for="rideType">Ride type</label><select id="rideType"><option value="economy">Economy</option><option value="comfort">Comfort</option><option value="xl">XL</option></select></div><div><label for="passengers">Passengers</label><select id="passengers"><option value="1">1 passenger</option><option value="2">2 passengers</option><option value="3">3 passengers</option><option value="4">4 passengers</option><option value="5">5 passengers</option><option value="6">6 passengers</option></select></div></div>
+<div class="estimate"><div><b>Estimated fare</b><small id="estimateNote">Demo estimate</small></div><strong id="fare">KES 450</strong></div><button class="primary" type="submit">Find a ride <span>→</span></button><p class="note">Demo only. No real ride or payment will be made.</p></form>
+<div id="confirmation" hidden><div class="success">✓</div><p class="eyebrow">REQUEST PREVIEW</p><h2>Your ride details</h2><div id="summary" class="summary"></div><button class="primary" id="edit" type="button">Edit ride details</button></div>
+</section></main>
+<section id="how" class="how"><p class="eyebrow">SIMPLE AND CONVENIENT</p><h2>Three steps to your destination</h2><div class="steps"><article><b>01</b><h3>Enter your route</h3><p>Add your pickup point and destination.</p></article><article><b>02</b><h3>Choose your ride</h3><p>Select a ride option that suits your trip.</p></article><article><b>03</b><h3>Review your request</h3><p>Check your details before confirming.</p></article></div></section>
+<footer><a class="brand" href="#"><span>R</span> RideFlow</a><small>Student project demo · Front end only</small></footer><script src="app.js"></script></body></html>
